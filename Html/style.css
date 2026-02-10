@@ -1,0 +1,411 @@
+/* google fonts-ze shemidzloia vnaxo rogor gamoiyureba fontebi da maqedan avarchio romelime */
+/* fontis gamoyenebis ramodeni gzaa,an vakopirebt html-is kods da html-shi vagdebt,an fails viwert da css-shi vagdebt kods */
+/* 
+fonts{
+    src:url()
+}
+*/
+.rame{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* borders */
+.brdrs{
+    border: 3px dotted blueviolet;
+    border-radius: 10px;
+}
+.brdr{
+    border-top: 3px solid violet;
+    border-bottom: 3px solid rgb(69, 30, 132);
+    border-left: 3px solid rgb(160, 162, 30);
+    border-right: 3px solid rgb(221, 32, 32);
+border-radius: 20px;
+}
+
+/* shadows */
+.shdw{
+    text-shadow: 2px 2px 3px darkcyan;
+}
+.box_shadow{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(206, 202, 196);
+    box-shadow: 3px 3px 5px black;
+}
+.margiin{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    margin: auto;
+}
+
+/* float */
+.flt{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.overflow{
+    height: 75px;
+    width: 500px;
+    border: 3xp solid rgb(95, 28, 28);
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: visible; */
+    /* overflow: clip;
+    overflow-clip-margin: 100px; */
+    /* clip margin-it ganvsazgvravt ramdeni pixelit sheileba gadacdes */
+}
+
+
+/* display  */
+.dv{
+background-color: dimgray;
+height: 100px;
+width: 100px;
+display: block;
+}
+.sp{
+background-color: rgb(54, 43, 29);
+height: 100px;
+width: 100px;
+/* display: inline; */
+display: inline-block;
+/* visibility: hidden; */
+}
+
+/* width height */
+.wid{
+    /* height: auto; */
+    /* height: 50%; */
+    height: 200px;
+}
+
+/* positions */
+.pos{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    /* position: relative; 
+    absolute sadac isedac unda iyos */
+    /*position: fixed;
+    rogorc ar unda avsqrolot an rac ar unda vqnat,mainc im ert adgilas iqneba */
+    /* position: absolute;
+    parent-is absolitur mnishvnelobas igebs 
+    top:50%
+    left:50% 
+    eseni idealurad centraven*/
+    /* position: sticky;
+    titqmis identuria fixed-tan radgan mudam ekranze chans,magram sakutari adgili aq gankutvnili */
+}
+
+/* background image */
+.imaage{
+    background-image: url(./th\ \(4\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.cont{
+    border: 2px solid black;
+}
+.cont > p{
+    color: skyblue;
+}
+/* calke mdgom p-ebs gaaferadebs am ferebad  */
+.cont ~ p{
+    color: rosybrown;
+}
+/* am divis garet mdgom calkeul p-ebs */
+.cont + p{
+    color: lightgreen;
+}
+/* am divis garet mxolod pirvel elements */
+
+
+/* psuedo  */
+.goo:link{
+color: slateblue;
+}
+.goo:hover{
+color: rgb(31, 20, 105);
+font-size: 1.1em;
+}
+/* gilaks ro mivitant feri ecvleba */
+.goo:active{
+    color: blue;
+    font-size: 1.1em;
+}
+/* gilakis dawerisas ecvleba feri */
+.goo:visited{
+    color: purple;
+}
+.lii{
+    width: 50px;
+}
+.lii:not(:hover){
+    background-color: midnightblue;
+}
+.lii:hover{
+    background-color: yellow;
+}
+/* .lii:nth-child(1){
+    background-color: brown;
+} */
+.lii:nth-child(odd){
+    background-color: brown;
+}
+.forhover p{
+    background-color: powderblue;
+    width: 100px;
+    height: 50px;
+    display: none;
+    margin-bottom: 50px;
+}
+.forhover:hover p{
+display: block;
+}
+
+/* psuedo element */
+
+.hh::first-letter{
+    font-size: 1.6em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.lor::first-line{
+    color: aqua;
+}
+.lor::selection{
+    color: greenyellow;
+}
+/* .fru li::before{
+}
+.fru li::after{
+} */
+
+/* pagination */
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.active{
+    background-color: chartreuse;
+    font-weight: bold;
+}
+.pagination a:hover:not(.active){
+    background-color: gray;
+    border-radius: 5px;
+}
+
+/* nav */
+
+
+.navh{
+    text-align: center;
+    font-weight: 800;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: rgb(93, 90, 87);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: black;
+}
+.navbar li{
+    float: left;
+}
+
+/* structure */
+
+.hddr{
+    text-align: center;
+    background-color: rgb(196, 203, 203);
+}
+.navbar{
+    background-color: black;
+    height: 50px;
+}
+aside{
+    width: 20%;
+    float: left;
+}
+section{
+    width: 40%;
+    float: left;
+}
+article{
+    width: 40%;
+    float: left;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: #c8a4a4;
+    text-align: center;
+    padding: 25px;
+}
+
+@media screen and (max-width:600px) {
+    aside,section,article{
+        width: 100%;
+    }
+}
+
+/* flexbox */
+.container{
+    display: flex;
+    /* flex-direction: row;  esaa zogadad, */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+/* justify-content: flex-start; zogadi */
+        /* anu justify content igebs mnishvnelobas parent-isgan da mag widht-shi ari an tavshi,an boloshi,anu rasac mivutitebt ra */
+/* justify-content: flex-end; */
+/* justify-content: center; */
+/* justify-content: space-between; ertmanets shoris identuri manzilia dashorebuli */
+/* justify-content: space-around; igivea,mara axla kutxeebic gatvaliswinebulia */
+/* justify-content: space-evenly; gverdze da shuashi toladaa dashorebuli */
+border: 10px solid red;
+height: 600px;
+/* align-items: flex-start; zogadi */
+/* align-items: flex-end; */
+/* align-items: baseline; es textis mixedvit atanabrebs ertmanettan da ara zomis mixedvit */
+
+/* flex-wrap: wrap; amityvela inarchunebs tavis zomas da vinc vegar eteva ert xazze,gadadis shemdegze */
+width: 800px;
+/* flex-wrap:nowrap ; */
+/* flex-wrap:wrap-reverse ; */
+
+/* flex-wrap: wrap; es gamoiyeneba qvevitastan ertad */
+/* align-content: flex-start; */
+/* align-content: center; */
+/* align-content: space-between; */
+/* align-content: space-evenly; */
+
+/* flex-wrap: wrap;
+align-content: flex-start;
+column-gap: 2em;
+row-gap: 2em; */
+}
+/* chven shegvidzlia titoeul elements vutxrat sad dadges */
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 6em;
+    text-align: center;
+    border-radius: 10px;
+}
+#box1{
+    background-color: aqua;
+    align-self: center;
+    order: 1;
+}
+#box2{
+    background-color: rgb(37, 36, 39);
+    order: -1;
+}
+#box3{
+    background-color: rgb(106, 177, 34);
+}
+#box4{
+    background-color: rgb(144, 17, 17);
+}
+
+.bxx{
+    width: 250px;
+    height: 250px;
+    font-size: 9em;
+    text-align: center;
+    border: 3px solid black;
+background-color: darkviolet;
+
+/* transform: translateX(50px); gadaadgildeba x gerdze 50 px-it */
+/* transform: translateY(100px); y gerdze */
+/* transform: translate(50px,100px); es x da y gerdzs moiazrebs,orives */
+
+/* transform: rotateX(45deg); */
+/* transform: rotateY(45deg); */
+
+/* transform: scaleX(2); ramdenjer gaizardos an shemcirdes elementi */
+/* transform: scaleY(0.5); */
+
+
+/* transform: skewX(45deg); */
+
+transform: translateX(50%) rotateZ(90deg) scale(0.5);
+}
+
+
+
+.yuti{
+    width: 250px;
+    height: 250px;
+    background-color: goldenrod;
+    font-size: 5em;
+    text-align: center;
+    /* animation-name: slideLeft; */
+    animation-name: colorchange;
+    animation-duration: 2s;
+    animation-timing-function: 3;
+    animation-direction: reverse;
+    animation-timing-function: ease-in-out;
+    /* animation-timing-function: steps(10); */
+}
+/* .yuti:hover{
+        animation-name: colorchange;
+    animation-duration: 2s;
+} */
+@keyframes slideLeft{
+    from{transform: translateX(100%);}
+}
+@keyframes slideRight{
+    to{transform: translateX(100%);}
+}
+@keyframes slideUp{
+    from{transform: translateY(100%);}
+}
+@keyframes slideDown{
+    to{transform: translateY(100%);}
+}
+@keyframes rotate{
+    100%{transform: rotateX(100%);}
+}
+@keyframes grow{
+    50%{transform: scale(2,2);}
+}
+@keyframes fade{
+    50%{opacity: 0;}
+}
+@keyframes colorchange{
+    0%{background-color: blue; }
+    20%{background-color: rgb(20, 130, 161); }
+    40%{background-color: rgb(84, 6, 6); }
+    60%{background-color: rgb(66, 5, 99); }
+    80%{background-color: rgb(93, 165, 45); }
+    100%{background-color: rgb(38, 174, 23); }
+    
+}
+
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px chocolate;}
+}

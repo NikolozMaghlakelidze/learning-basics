@@ -1,0 +1,27 @@
+[
+    {
+        "name":"nugo",
+        "gvari":"nugoishvili",
+        "isemployed":false
+    },
+    {
+        "name":"gocha",
+        "gvari":"vajdjbgo",
+        "isemployed":true
+    },
+    {
+        "name":"misho",
+        "gvari":"saakashvili",
+        "isemployed":false
+    },
+    {
+        "name":"akaki",
+        "gvari":"vashlovani",
+        "isemployed":true
+    },
+    {
+        "name":"nika",
+        "gvari":"kakoishvili",
+        "isemployed":true
+    }
+]
